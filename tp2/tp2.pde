@@ -1,0 +1,152 @@
+/* Nombre: Joaquín Asprea
+leg: 84219/8
+Profesor: David Bedoian
+Comision: 3 */
+//Link del video: https://youtu.be/90ITjFvJvLw
+void setup () {
+  size (600,600);
+}
+void draw (){
+  background (125);
+translate(width/2, height/2);
+rotate(PI/3.8); 
+noFill();
+stroke(255);
+strokeWeight(5);
+pushMatrix();
+translate(240,0);
+rotate(0.4);
+rect(0,0,25,25);
+popMatrix();
+rotate(PI/18.0);
+noFill();
+stroke(0);
+pushMatrix();
+translate(240,0);
+rotate(0.4);
+rect(0,0,25,25);
+popMatrix();
+for (int i=0 ; i<20 ; i++) {
+  rotate(PI/18.0); 
+noFill();
+stroke(255);
+strokeWeight(5);
+pushMatrix();
+translate(240,0);
+rotate(0.4);
+rect(0,0,25,25);
+popMatrix();
+rotate(PI/18.0);
+noFill();
+stroke(0);
+pushMatrix();
+translate(240,0);
+rotate(0.4);
+rect(0,0,25,25);
+popMatrix();}
+rotate(PI/3.1); 
+noFill();
+stroke(255);
+strokeWeight(5);
+pushMatrix();
+translate(180,0);
+rotate(-0.3);
+rect(0,0,25,25);
+popMatrix();
+rotate(PI/13.0);
+noFill();
+stroke(0);
+pushMatrix();
+translate(180,0);
+rotate(-0.3);
+rect(0,0,25,25);
+popMatrix();
+for (int i=0 ; i<14 ; i++) {
+  rotate(PI/13.0); 
+noFill();
+stroke(255);
+strokeWeight(5);
+pushMatrix();
+translate(180,0);
+rotate(-0.3);
+rect(0,0,25,25);
+popMatrix();
+rotate(PI/13.0);
+noFill();
+stroke(0);
+pushMatrix();
+translate(180,0);
+rotate(-0.3);
+rect(0,0,25,25);
+popMatrix();}
+rotate(PI/2.7); 
+noFill();
+stroke(255);
+strokeWeight(5);
+pushMatrix();
+translate(120,0);
+rotate(0.3);
+rect(0,0,25,25);
+popMatrix();
+rotate(PI/8.0);
+noFill();
+stroke(0);
+pushMatrix();
+translate(120,0);
+rotate(0.3);
+rect(0,0,25,25);
+popMatrix();
+for (int i=0 ; i<9 ; i++) {
+  rotate(PI/8.0); 
+noFill();
+stroke(255);
+strokeWeight(5);
+pushMatrix();
+translate(120,0);
+rotate(0.3);
+rect(0,0,25,25);
+popMatrix();
+rotate(PI/8.0);
+noFill();
+stroke(0);
+pushMatrix();
+translate(120,0);
+rotate(0.3);
+rect(0,0,25,25);
+popMatrix();}
+rotate(PI/2.5); 
+noFill();
+stroke(255);
+strokeWeight(5);
+pushMatrix();
+translate(60,0);
+rotate(-0.1);
+rect(0,0,25,25);
+popMatrix();
+rotate(PI/5.0);
+noFill();
+stroke(0);
+pushMatrix();
+translate(60,0);
+rotate(-0.1);
+rect(0,0,25,25);
+popMatrix();
+for (int i=0 ; i<4 ; i++) {
+  rotate(PI/5.0); 
+noFill();
+stroke(255);
+strokeWeight(5);
+pushMatrix();
+translate(60,0);
+rotate(-0.1);
+rect(0,0,25,25);
+popMatrix();
+rotate(PI/5.0);
+noFill();
+stroke(0);
+pushMatrix();
+translate(60,0);
+rotate(-0.1);
+rect(0,0,25,25);
+popMatrix();}
+}
