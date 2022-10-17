@@ -1,37 +1,45 @@
-Animation animation1;
-
 class Char {
-float xpos;
-float ypos;
-float drag = 30.0;
-int numberOfFrames;
-int f;
+
+  Animation animation1;
+
+  float xpos =  width/2-120;
+  float ypos = height/2;
+  float drag = 30.0;
+  int numberOfFrames;
+  int f;
   float x;
   float y;
   int diameter;
   float ang, vel;
-  int contador;
-
+  int cuenta = 1;
+  int cuentamx = 4;
 
   Char(float tempX, float tempY, int tempDiameter) {
+
     x = tempX;
     y= tempY;
     diameter = tempDiameter;
-    
   }
-  void personaje (){
- frameRate(24);
-  animation1 = new Animation ("Personaje_", 38);
-  ypos = height * 0.25;
-}
-}
-  void movimiento() { 
-  float dx = mouseX - xpos;
-  xpos = xpos + dx/drag;
+  void personaje () {
 
-  if (mousePressed) {
-    background(153, 153, 0);
-    animation1.display(xpos-animation1.getWidth()/2, ypos);
-    
-}
+    animation1 = new Animation ();
+    ypos = height * 0.25;
+  }
+  void movimiento() {
+    if (cuenta >= cuentamx) {
+      cuenta = 1;
+    }
+    cuenta++;
+    println(cuenta);
+
+    /*
+    float dx = mouseX - xpos;
+     xpos = xpos + dx/drag;
+     */
+    animation1.display(xpos, ypos, cuenta);
+
+    if (mousePressed) {
+      cuenta = 1;
+    }
+  }
 }

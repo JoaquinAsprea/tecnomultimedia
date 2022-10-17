@@ -66,6 +66,11 @@ class Fondo {
     ed.popStyle();
     ed.endDraw();
     image(ed,0,0);
-
+    fill(0,150,0);
+    rect (0,300,600,300);
+    if (mousePressed) {
+      vel=0;
+      vel2=0;
+    }
   }
 }

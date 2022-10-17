@@ -1,24 +1,23 @@
 class Animation {
-  PImage[] images;
-  int imageCount;
-  int frame;
   
-  Animation(String imagePrefix, int count) {
-    imageCount = count;
-    images = new PImage[imageCount];
-
-    for (int i = 0; i < imageCount; i++) {
-      PImages = imagePrefix + nf(i, 4) + ".png";
-      images = loadImage("Personaje_");
+  PImage[] images = new PImage[5];
+  
+  Animation() {
+    
+    
+   for (int i = 1; i < images.length; i++) {
+    images [i] = loadImage("Personaje_"+i+".png"); 
     }
+    
   }
 
-  void display(float xpos, float ypos) {
-    frame = (frame+1) % imageCount;
-    image(images[frame], xpos, ypos);
+  void display (float xpos, float ypos, int cuenta) {
+    
+    image(images[cuenta], xpos, ypos);
   }
-  
+  /*
   int getWidth() {
-    return images[0].width;
+    return images[cuenta2].width;
   }
+  */
 }
