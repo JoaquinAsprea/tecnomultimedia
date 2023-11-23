@@ -1,0 +1,38 @@
+{   "audio" : "audios/audio.mp3",
+    "modelo":"modelos/modelo.glb",
+    "fondo":"rgb(0,20,50)",
+    "data" :
+        [
+            {
+                 "tiempo":"00:00",
+                 "camara":"Camara01",
+                 "target":"Target01",
+                 "nombre":"Primera cosa"
+            },
+            {
+                 "tiempo":"00:03",
+                 "camara":"Camara02",
+                 "duracion": 100000,
+                 "target":"Target02",
+                 "nombre":"Segunda cosa"
+            },
+            {
+                 "tiempo":"01:00",
+                 "camara":"Camara03",
+                 "target":"Target03",
+                 "nombre":"Tercera cosa"
+            },
+            {
+                 "tiempo":"00:09",
+                 "camara":"c1",
+                 "duracion":1000,
+                 "target":"t2"
+            },
+            {
+                 "tiempo":"00:11",
+                 "camara":"c3",
+                 "duracion":3000,
+                 "target":"t3"
+            }
+        ]
+}
