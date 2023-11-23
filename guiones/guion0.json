@@ -1,0 +1,122 @@
+{   "audio" : "audios/audio.mp3",
+    "modelo":"modelos/modelo.glb",
+    "fondo":"rgb(0,20,50)",
+    "data" :
+        [
+            {
+                 "tiempo":"00:00",
+                 "camara":"Camara01",
+                 "target":"Target01",
+                 "nombre":"Inicio"
+            },
+            {
+                 "tiempo":"00:03",
+                 "camara":"Camara02",
+                 "duracion": 70000,
+                 "target":"Target02",
+                 "nombre":"Qué significa vivir?"
+            },
+            {
+                 "tiempo":"01:00",
+                 "camara":"Camara03",
+                 "duracion": 0,
+                 "target":"Target03",
+                 "nombre":"El temor de Dio"
+            },
+            {
+                 "tiempo":"01:01",
+                 "camara":"Camara04",
+                 "duracion":10000,
+                 "target":"Target04",
+                 "nombre":"El linaje joestar"
+            },
+            {
+                 "tiempo":"01:12",
+                 "camara":"Camara05",
+                 "target":"Target05",
+                 "nombre":"Lo que no vio la anciana"
+            },
+            {
+                 "tiempo":"01:13",
+                 "camara":"Camara06",
+                 "duracion":18000,
+                 "target":"Target06",
+                 "nombre":"La muerte de Enyaba"
+            },
+            {
+               "tiempo":"01:30",
+               "camara":"Camara09",
+               "duracion":0,
+               "target":"Target09",
+               "nombre":"Debí darme cuenta antes"
+          },{
+               "tiempo":"01:31",
+               "camara":"Camara10",
+               "duracion":25000,
+               "target":"Target10",
+               "nombre":"Intentar asesinar a los joestar"
+          },
+            {
+                 "tiempo":"01:55",
+                 "camara":"Camara07",
+                 "duracion":0,
+                 "target":"Target07",
+                 "nombre":"El adios temporal al camino del cielo"
+            },
+            {
+                 "tiempo":"01:56",
+                 "camara":"Camara08",
+                 "duracion":105000,
+                 "target":"Target08",
+                 "nombre":"El cielo debe esperar"
+            },
+            {
+                 "tiempo":"02:50",
+                 "camara":"Camara11",
+                 "duracion":0,
+                 "target":"Target11",
+                 "nombre":"Paz mental"
+            },
+            {
+                 "tiempo":"02:51",
+                 "camara":"Camara12",
+                 "duracion":47000,
+                 "target":"Target12",
+                 "nombre":"El objetivo y el error de Dio"
+            },
+            {
+                 "tiempo":"03:27",
+                 "camara":"Camara13",
+                 "duracion":0,
+                 "target":"Target13",
+                 "nombre":"Los sentimientos y el presente"
+            },
+            {
+                 "tiempo":"03:28",
+                 "camara":"Camara14",
+                 "duracion":104000,
+                 "target":"Target14",
+                 "nombre":"De manera noble y orgullosa"
+            },
+            {
+                 "tiempo":"04:30",
+                 "camara":"Camara15",
+                 "duracion":0,
+                 "target":"Target15",
+                 "nombre":"La pelea"
+            },
+            {
+                 "tiempo":"04:31",
+                 "camara":"Camara16",
+                 "duracion":24000,
+                 "target":"Target16",
+                 "nombre":"El cielo es el mañana"
+            },
+            {
+                 "tiempo":"04:54",
+                 "camara":"Camara17",
+                 "target":"Target17",
+                 "nombre":"Las redecillas del reloj"
+            }
+        ]
+}
